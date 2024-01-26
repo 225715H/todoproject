@@ -2,8 +2,6 @@
 """
 Django's command-line utility for administrative tasks.
 
-user: higamotoki
-password: pass
 """
 
 import os

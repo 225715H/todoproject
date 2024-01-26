@@ -8,10 +8,7 @@
 
 {% block content %}
 <form action="" method="POST">{% csrf_token %}
-{{ form.title }}
-{{ form.memo }}
-{{ form.priority }}
-{{ form.duedate }}
+{{ form.as_p }}
 <input type="submit" value="update">
 </form>
 {% endblock content %}
