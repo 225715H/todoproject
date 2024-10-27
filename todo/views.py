@@ -9,7 +9,6 @@ class todolist(ListView):
     template_name = 'list.html'
     model = TodoModel
 
-
 class tododetail(DetailView):
     template_name = 'detail.html'
     model = TodoModel
@@ -20,12 +19,10 @@ class todocreate(CreateView):
     fields = ('title','memo','priority','duedate')
     success_url = reverse_lazy('list')
 
-
 class tododelete(DeleteView):
     template_name = 'delete.html'
     model = TodoModel
     success_url = reverse_lazy('list')
-
 
 class todoupdate(UpdateView):
     template_name = 'update.html'
