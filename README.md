@@ -13,8 +13,8 @@
 ### 1. リポジトリのクローン
 まず、ローカル環境にこのリポジトリをクローンします。
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone git@github.com:225715H/todoproject.git
+cd todoproject
 ```
 
 ### 2. 仮想環境の有効化
